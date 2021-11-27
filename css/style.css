@@ -1,0 +1,72 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.navbar ul li {
+  -webkit-transform: translate(1050px, 25px);
+          transform: translate(1050px, 25px);
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  color: #2222fc;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.messages {
+  position: relative;
+  top: 150px;
+}
+
+.messages img {
+  width: 35%;
+}
+
+.messages h1 {
+  font-size: 40px;
+}
+
+.popup {
+  width: 100%;
+  background: #1a1a1a;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.popup p a {
+  color: blue;
+}
+
+.popup button {
+  background: transparent;
+  border: 0;
+  color: white;
+  -webkit-transform: translate(1245px);
+          transform: translate(1245px);
+  cursor: pointer;
+}
+
+.popup button i:hover {
+  color: #2222fc;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+/*# sourceMappingURL=style.css.map */
